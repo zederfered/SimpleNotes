@@ -16,7 +16,7 @@ ext - for quit the program.\n>> :')
                 print('The file is empty.')
         elif cmd == 'add':
             f.seek(0, 2)
-            new_note = input('>> Enter a new note:\n>> :')
+            new_note = input('>> Введите данные:\n>> :')
             f.write(new_note+'\n')
         elif cmd == 'ext':
             print('--Bye--!')
